@@ -1,0 +1,7 @@
+#https://unix.stackexchange.com/questions/410579/change-the-python3-default-version-in-ubuntu
+
+root@irshad:/usr/bin# unlink python
+root@irshad:/usr/bin# ln -s /usr/bin/python3.6 python
+root@irshad:/usr/bin# python --version
+ Python 3.6.8
+
